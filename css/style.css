@@ -1,0 +1,44 @@
+/* Element Selectors */
+
+body {
+  /* background-color: #333; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: blue;
+}
+
+/* # signs is for IDs */
+
+#welcome {
+  background-color: #f4f4f4;
+}
+
+/* . is for classes */
+
+.primary-heading {
+  color: blue;
+}
+
+/* Mulitple Selectors */
+
+#welcome, #about {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Nested Selectors */
+
+#welcome p {
+  font-size: 20px;
+}
+
+#about {
+  color: blue;
+}
+
+#welcome p span {
+  font-weight: bold;
+}
